@@ -1,0 +1,561 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>BP vs C++ Unreal Engine - Wiki</title>
+<meta name="description" content="Comparison b/w Blueprints and C++">
+
+
+  <meta name="author" content="Muhammad Moiz ul haq">
+  
+  <meta property="article:author" content="Muhammad Moiz ul haq">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Wiki">
+<meta property="og:title" content="BP vs C++ Unreal Engine">
+<meta property="og:url" content="http://localhost:4000/BP-vs-cpp-unreal-engine/">
+
+
+  <meta property="og:description" content="Comparison b/w Blueprints and C++">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-10-22T13:15:00+05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/BP-vs-cpp-unreal-engine/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Muhammad Moiz ul haq",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Wiki Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Wiki
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        <li class="current">BP vs C++ Unreal Engine</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/profile.jpg" alt="Muhammad Moiz ul haq" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Muhammad Moiz ul haq</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Game Programmer</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="mailto:moizulhaq914+35@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://muhammadmoizulhaq.github.io/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/muhammadmoizulhaq/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/muhammadmoizulhaq" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="BP vs C++ Unreal Engine">
+    <meta itemprop="description" content="Comparison b/w Blueprints and C++">
+    <meta itemprop="datePublished" content="2022-10-22T13:15:00+05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/BP-vs-cpp-unreal-engine/" class="u-url" itemprop="url">BP vs C++ Unreal Engine
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-cog"></i> Contents</h4></header>
+              <ul class="toc__menu"><li><a href="#comparison-bw-blueprints-and-c">Comparison b/w Blueprints and C++</a></li><li><a href="#c-vs-blueprints-according-to-epic-games">C++ vs Blueprints according to Epic Games</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="comparison-bw-blueprints-and-c"><strong>Comparison</strong> b/w Blueprints and C++</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Blueprints</th>
+      <th>C plus plus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>No Codding required</td>
+      <td>Must have basic information about programming</td>
+    </tr>
+    <tr>
+      <td><strong>Pros</strong></td>
+      <td><strong>Pros</strong></td>
+    </tr>
+    <tr>
+      <td>Bit slower</td>
+      <td>Greater flexibility</td>
+    </tr>
+    <tr>
+      <td>Quicker to create new game</td>
+      <td>Execute much quicker</td>
+    </tr>
+    <tr>
+      <td>Best for Game Designer</td>
+      <td>Best for Game Programmers</td>
+    </tr>
+    <tr>
+      <td><strong>Cons</strong></td>
+      <td><strong>Cons</strong></td>
+    </tr>
+    <tr>
+      <td>Messier</td>
+      <td>It is easier to make mistakes</td>
+    </tr>
+    <tr>
+      <td>Harder to troubleshoot errors and crashes</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="c-vs-blueprints-according-to-epic-games">C++ vs Blueprints according to <strong>Epic Games</strong></h2>
+
+<ul>
+  <li>C++
+    <ul>
+      <li><strong>Faster runtime performance</strong> Generally C++ logic is significantly quicker than Blueprint logic, for reasons described below.</li>
+      <li><strong>Explicit Design</strong> When exposing variables or functions from C++ you have more control over exposing precisely what you want, so you can protect specific functions/variables and build a formal “API” for your class. This allows you to avoid creating overly large and hard to follow Blueprints.</li>
+      <li><strong>Broader Access</strong> Functions and variables defined in C++ (and exposed correctly) can be accessed from all other systems, making it perfect for passing information between different systems. Also, C++  has more engine functionality exposed to it than Blueprints.</li>
+      <li><strong>More Data Control</strong> C++ has access to more specific functionality when it comes to loading and saving data. This allows you to handle version changes and serialization in a very custom way.</li>
+      <li><strong>Network Replication</strong> Replication support in Blueprints is straightforward and is designed to be used in smaller games or for unique one-off Actors. If you need tight control over replication bandwidth or timing you will need to use C++.</li>
+      <li><strong>Better For Math</strong> Doing complicated math can be difficult and somewhat slow in Blueprints, so consider C++ for math-heavy operations.</li>
+      <li><strong>Easier to Diff/Merge</strong> C++ code and data (as well as config and possibly custom solutions) is stored as text, which makes working in multiple branches simultaneously easier.</li>
+    </ul>
+  </li>
+  <li>Blueprints
+    <ul>
+      <li><strong>Faster Creation</strong> For most people creating a new Blueprint class and adding variables and functions is quicker than doing something similar in C++, so prototyping brand new systems is often faster in Blueprint.</li>
+      <li><strong>Faster Iteration</strong> It is much quicker to modify Blueprint logic and preview inside the editor than it is to recompile the game, although hot reload can help. This is true for both mature and new systems so all “tweakable” values should be stored in assets if possible.</li>
+      <li><strong>Better For Flow</strong> It can be complicated to visualize “game flow” in C++, so it is often better to implement that in Blueprints (or in custom systems like Behavior Trees that are designed for this). Delay and async nodes make it much easier to follow flow than using C++ delegates.</li>
+      <li><strong>Flexible Editing</strong> Designers and artists without specific technical training can create and edit Blueprints, which makes Blueprints ideal for assets that need to be modified by more than just engineers.</li>
+      <li><strong>Easier Data Usage</strong> Because storing data inside Blueprint classes is much simpler and safer than inside C++ classes; Blueprints are suitable for classes that closely mix Data and Logic.</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p><strong>References:</strong> https://docs.unrealengine.com/4.27/en-US/Resources/SampleGames/ARPG/BalancingBlueprintAndCPP/</p>
+</blockquote>
+
+<script src="https://utteranc.es/client.js" repo="muhammadmoizulhaq/devdoc" issue-term="pathname" theme="github-dark" crossorigin="anonymous" async="">
+</script>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#blueprint" class="page__taxonomy-item p-category" rel="tag">blueprint</a><span class="sep">, </span>
+    
+      <a href="/tags/#c" class="page__taxonomy-item p-category" rel="tag">c++</a><span class="sep">, </span>
+    
+      <a href="/tags/#cplusplus" class="page__taxonomy-item p-category" rel="tag">cplusplus</a><span class="sep">, </span>
+    
+      <a href="/tags/#development" class="page__taxonomy-item p-category" rel="tag">development</a><span class="sep">, </span>
+    
+      <a href="/tags/#documentation" class="page__taxonomy-item p-category" rel="tag">documentation</a><span class="sep">, </span>
+    
+      <a href="/tags/#gameplay" class="page__taxonomy-item p-category" rel="tag">gameplay</a><span class="sep">, </span>
+    
+      <a href="/tags/#programming" class="page__taxonomy-item p-category" rel="tag">programming</a><span class="sep">, </span>
+    
+      <a href="/tags/#unreal-engine" class="page__taxonomy-item p-category" rel="tag">unreal engine</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#comparison" class="page__taxonomy-item p-category" rel="tag">comparison</a><span class="sep">, </span>
+    
+      <a href="/categories/#devdoc" class="page__taxonomy-item p-category" rel="tag">devdoc</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2022-10-22T13:15:00+05:00">October 22, 2022</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=BP+vs+C%2B%2B+Unreal+Engine%20http%3A%2F%2Flocalhost%3A4000%2FBP-vs-cpp-unreal-engine%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FBP-vs-cpp-unreal-engine%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FBP-vs-cpp-unreal-engine%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+            
+      </div>
+    </div>
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://www.linkedin.com/in/muhammadmoizulhaq/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://github.com/muhammadmoizulhaq" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Muhammad Moiz ul haq. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

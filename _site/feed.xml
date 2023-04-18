@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-18T21:40:37+05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wiki</title><subtitle>Rising Talent who could change the world the way they think.</subtitle><author><name>Muhammad Moiz ul haq</name></author><entry><title type="html">BP vs C++ Unreal Engine</title><link href="http://localhost:4000/BP-vs-cpp-unreal-engine/" rel="alternate" type="text/html" title="BP vs C++ Unreal Engine" /><published>2022-10-22T13:15:00+05:00</published><updated>2022-10-22T13:15:00+05:00</updated><id>http://localhost:4000/BP-vs-cpp-unreal-engine</id><content type="html" xml:base="http://localhost:4000/BP-vs-cpp-unreal-engine/"><![CDATA[<h2 id="comparison-bw-blueprints-and-c"><strong>Comparison</strong> b/w Blueprints and C++</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Blueprints</th>
+      <th>C plus plus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>No Codding required</td>
+      <td>Must have basic information about programming</td>
+    </tr>
+    <tr>
+      <td><strong>Pros</strong></td>
+      <td><strong>Pros</strong></td>
+    </tr>
+    <tr>
+      <td>Bit slower</td>
+      <td>Greater flexibility</td>
+    </tr>
+    <tr>
+      <td>Quicker to create new game</td>
+      <td>Execute much quicker</td>
+    </tr>
+    <tr>
+      <td>Best for Game Designer</td>
+      <td>Best for Game Programmers</td>
+    </tr>
+    <tr>
+      <td><strong>Cons</strong></td>
+      <td><strong>Cons</strong></td>
+    </tr>
+    <tr>
+      <td>Messier</td>
+      <td>It is easier to make mistakes</td>
+    </tr>
+    <tr>
+      <td>Harder to troubleshoot errors and crashes</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="c-vs-blueprints-according-to-epic-games">C++ vs Blueprints according to <strong>Epic Games</strong></h2>
+
+<ul>
+  <li>C++
+    <ul>
+      <li><strong>Faster runtime performance</strong> Generally C++ logic is significantly quicker than Blueprint logic, for reasons described below.</li>
+      <li><strong>Explicit Design</strong> When exposing variables or functions from C++ you have more control over exposing precisely what you want, so you can protect specific functions/variables and build a formal “API” for your class. This allows you to avoid creating overly large and hard to follow Blueprints.</li>
+      <li><strong>Broader Access</strong> Functions and variables defined in C++ (and exposed correctly) can be accessed from all other systems, making it perfect for passing information between different systems. Also, C++  has more engine functionality exposed to it than Blueprints.</li>
+      <li><strong>More Data Control</strong> C++ has access to more specific functionality when it comes to loading and saving data. This allows you to handle version changes and serialization in a very custom way.</li>
+      <li><strong>Network Replication</strong> Replication support in Blueprints is straightforward and is designed to be used in smaller games or for unique one-off Actors. If you need tight control over replication bandwidth or timing you will need to use C++.</li>
+      <li><strong>Better For Math</strong> Doing complicated math can be difficult and somewhat slow in Blueprints, so consider C++ for math-heavy operations.</li>
+      <li><strong>Easier to Diff/Merge</strong> C++ code and data (as well as config and possibly custom solutions) is stored as text, which makes working in multiple branches simultaneously easier.</li>
+    </ul>
+  </li>
+  <li>Blueprints
+    <ul>
+      <li><strong>Faster Creation</strong> For most people creating a new Blueprint class and adding variables and functions is quicker than doing something similar in C++, so prototyping brand new systems is often faster in Blueprint.</li>
+      <li><strong>Faster Iteration</strong> It is much quicker to modify Blueprint logic and preview inside the editor than it is to recompile the game, although hot reload can help. This is true for both mature and new systems so all “tweakable” values should be stored in assets if possible.</li>
+      <li><strong>Better For Flow</strong> It can be complicated to visualize “game flow” in C++, so it is often better to implement that in Blueprints (or in custom systems like Behavior Trees that are designed for this). Delay and async nodes make it much easier to follow flow than using C++ delegates.</li>
+      <li><strong>Flexible Editing</strong> Designers and artists without specific technical training can create and edit Blueprints, which makes Blueprints ideal for assets that need to be modified by more than just engineers.</li>
+      <li><strong>Easier Data Usage</strong> Because storing data inside Blueprint classes is much simpler and safer than inside C++ classes; Blueprints are suitable for classes that closely mix Data and Logic.</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p><strong>References:</strong> https://docs.unrealengine.com/4.27/en-US/Resources/SampleGames/ARPG/BalancingBlueprintAndCPP/</p>
+</blockquote>
+
+<script src="https://utteranc.es/client.js" repo="muhammadmoizulhaq/devdoc" issue-term="pathname" theme="github-dark" crossorigin="anonymous" async="">
+</script>]]></content><author><name>Muhammad Moiz ul haq</name></author><category term="devdoc" /><category term="comparison" /><category term="development" /><category term="gameplay" /><category term="programming" /><category term="documentation" /><category term="unreal engine" /><category term="c++" /><category term="blueprint" /><category term="cplusplus" /><summary type="html"><![CDATA[Comparison b/w Blueprints and C++]]></summary></entry></feed>

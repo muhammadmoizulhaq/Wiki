@@ -12,15 +12,15 @@ Multi Threaded Downloader is a plugin for downloading files using multithreading
 ## How to use
 you need  to create downloader using this node.
 
-![Create Downloader](../assets/images/CreateDownloader.png)
+![Create Downloader](../assets/images/MultithreadedDownloader/CreateDownloader.png)
 
 It gives us the return value for the downloader, using this we will call the download file function.
 
-![Download](../assets/images/Download.png)
+![Download](../assets/images/MultithreadedDownloader/Download.png)
 
 It also gives us the required delegates.
 
-![Delegates](../assets/images/Delegates.png)
+![Delegates](../assets/images/MultithreadedDownloader/Delegates.png)
 
 <script src="https://utteranc.es/client.js"
     repo="muhammadmoizulhaq/devdoc"

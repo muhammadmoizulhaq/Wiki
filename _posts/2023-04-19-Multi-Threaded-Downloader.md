@@ -1,7 +1,7 @@
 ---
 title: Multithreaded Downloader
 date: 2023-04-19 03:15:00 -500
-categories: [devdoc, comparison]
+categories: [wiki, documentation]
 tags: [development, gameplay, programming, documentation, unreal engine, c++, blueprint, cplusplus]
 ---
 

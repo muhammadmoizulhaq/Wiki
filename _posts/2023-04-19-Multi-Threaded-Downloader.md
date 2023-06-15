@@ -5,8 +5,6 @@ categories: [wiki, documentation]
 tags: [development, gameplay, programming, documentation, unreal engine, c++, blueprint, cplusplus]
 ---
 
-# Multithreaded Downloader
-
 Multi Threaded Downloader is a plugin for downloading files using multithreading at runtime.
 
 ## How to use

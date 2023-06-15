@@ -5,8 +5,6 @@ categories: [wiki, documentation]
 tags: [programming, documentation, unreal engine, c++, cplusplus, Assets, Validation, Assets Validation]
 ---
 
-# Assets Validation
-
 This plugin **Assets Validation** will be helpful for validating the assets and keep every thing in check and put in proper place.
 
 ## How to use

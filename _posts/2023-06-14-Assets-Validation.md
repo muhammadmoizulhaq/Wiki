@@ -16,7 +16,7 @@ Just download the plugin and go to **Editor Preferences** and find the **Assets 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OqPxDJO5DLo" title="Assets Validation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <script src="https://utteranc.es/client.js"
-    repo="muhammadmoizulhaq/devdoc"
+    repo="muhammadmoizulhaq/Wiki"
     issue-term="pathname"
     theme="github-dark"
     crossorigin="anonymous"

@@ -21,7 +21,7 @@ It also gives us the required delegates.
 ![Delegates](../assets/images/MultithreadedDownloader/Delegates.png)
 
 <script src="https://utteranc.es/client.js"
-    repo="muhammadmoizulhaq/devdoc"
+    repo="muhammadmoizulhaq/Wiki"
     issue-term="pathname"
     theme="github-dark"
     crossorigin="anonymous"

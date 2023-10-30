@@ -16,7 +16,7 @@ Just download the plugin and go create **User Widget** and find the **Button Kit
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-KO-Nv_SIQo?si=mQUNyCzZI53jrks6" title="Button Kit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <script src="https://utteranc.es/client.js"
-    repo="muhammadmoizulhaq/devdoc"
+    repo="muhammadmoizulhaq/Wiki"
     issue-term="pathname"
     theme="github-dark"
     crossorigin="anonymous"
